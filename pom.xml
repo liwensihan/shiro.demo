@@ -150,7 +150,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>1.0.18</version>
+			<version>1.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -345,7 +345,5 @@
 			<version>2.7.4</version>
 		</dependency>
 		<!-- /Spring 升级4+ 依赖的JSON包 -->
-
-
 	</dependencies>
 </project>
