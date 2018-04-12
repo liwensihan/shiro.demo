@@ -84,6 +84,7 @@ public class PermissionController extends BaseController {
 	@RequestMapping(value="deletePermissionById",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String,Object> deleteRoleById(String ids){
+		System.out.println();
 		return permissionService.deletePermissionById(ids);
 	}
 }
