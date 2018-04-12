@@ -69,6 +69,7 @@ public class RoleController extends BaseController {
 		} catch (Exception e) {
 			resultMap.put("status", 500);
 			resultMap.put("message", "添加失败，请刷新后再试！");
+			System.out.println();
 			LoggerUtils.fmtError(getClass(), e, "添加角色报错。source[%s]",role.toString());
 		}
 		return resultMap;
